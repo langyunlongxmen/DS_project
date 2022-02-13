@@ -1,12 +1,12 @@
 # Boston Airbnb open data Analysis
 ## Installations
-NumPy
-Pandas
-Seaborn
-Matplotlib
-folium
-nltk
-sklearn
++ NumPy
++ Pandas
++ Seaborn
++ Matplotlib
++ folium
++ nltk
++ sklearn
 No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
 ## Project Motivation

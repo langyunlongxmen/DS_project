@@ -17,7 +17,7 @@ For this project I was interested in conducting exploratory data analysis using 
 4. What are the features that influence the review points rating? Could those features be utilized to predict review score rating?
 
 ## File Descriptions
-There are three csv files containing the original information
+There are three csv files containing the original information [Kaggle](https://www.kaggle.com/airbnb/boston)
 + calendar, including listing id and the price and availability for that day
 + listing, including full descriptions and average review score
 + reviews, including unique id for each reviewer and detailed comments

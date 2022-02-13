@@ -1,5 +1,5 @@
 # Boston Airbnb open data Analysis
-## Installations
+## libraries
 + NumPy
 + Pandas
 + Seaborn
@@ -8,23 +8,24 @@
 + nltk
 + sklearn
 
-No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
-
 ## Project Motivation
-For this project I was interested in conducting exploratory data analysis using a Wine Review dataset found on Kaggle containing approximately 130k reviews from the Wine Enthusiast to better understand:
+For this project I was interested in conducting exploratory data analysis using a Boston Airbnb dataset found on Kaggle containing approximately one year recording and reviews to better understand:
 
-Where does the best wine in the world come from?
-Is price related to quality?
-Are certain varieties of wine higher quality?
-What is the best wine in each price bracket?
-What words are most used when talking about wine?
-I wanted the opportunity to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed.
+1. When are the busiest times of the year to visit Boston? And how much do price spike?
+2. Does the properties in different regions of Boston have influence on the price? and how are the properties distributed on Boston city?
+3. Does the superhost get higher review points?
+4. What are the features that influence the review points rating? Could those features be utilized to predict review score rating?
 
-File Descriptions
-There is one exploratory notebook available here to showcase my work related to the questions posed. Markdown cells were used throughout to explain the process taken.
-
-Medium Blog Post
-The main findings of the code can be found at the Medium Blog post available here
-
-Licensing, Authors, Acknowledgements, etc.
-Acknowledgement should go to Kaggle and zackthoutt for providing the dataset. Acknowledgement should also go to DataCamp for their excellent WordCloud tutorial.
+## File Descriptions
+There are three csv files containing the original information
++ calendar, including listing id and the price and availability for that day
++ listing, including full descriptions and average review score
++ reviews, including unique id for each reviewer and detailed comments
+one exploratory Jupyter notebook available here to show what I found: 
+1. The september and October are the buiest time in Boston Airbnb market, also will raise the prices.
+2. Jamaica Plain, South End, Back Bay, Fenway, Dorchester are the TOP 5 regions with propertier distribution.
+3. The superhosts have 6.6% higher review points.
+4. Utilizing information about location, host, room, price to predict review_score with 0.08791 r2_error for testing data.
+ 
+## Acknowledgements
+Acknowledgement should go to Kaggle for providing the dataset. 

@@ -1,14 +1,15 @@
-# Wine Review Data Analysis
-Installations
+# Boston Airbnb open data Analysis
+## Installations
 NumPy
 Pandas
 Seaborn
 Matplotlib
-Wordcloud
-Pillow
+folium
+nltk
+sklearn
 No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
-Project Motivation
+## Project Motivation
 For this project I was interested in conducting exploratory data analysis using a Wine Review dataset found on Kaggle containing approximately 130k reviews from the Wine Enthusiast to better understand:
 
 Where does the best wine in the world come from?

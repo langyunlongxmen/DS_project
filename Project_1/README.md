@@ -7,6 +7,7 @@
 + folium
 + nltk
 + sklearn
+
 No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
 ## Project Motivation

@@ -1,5 +1,5 @@
 # Boston Airbnb open data Analysis
-## libraries
+## Libraries
 + NumPy
 + Pandas
 + Seaborn

@@ -21,7 +21,8 @@ There are three csv files containing the original information
 + calendar, including listing id and the price and availability for that day
 + listing, including full descriptions and average review score
 + reviews, including unique id for each reviewer and detailed comments
-one exploratory Jupyter notebook available here to show what I found: 
+
+One exploratory Jupyter notebook available here to show what I found: 
 1. The september and October are the buiest time in Boston Airbnb market, also will raise the prices.
 2. Jamaica Plain, South End, Back Bay, Fenway, Dorchester are the TOP 5 regions with propertier distribution.
 3. The superhosts have 6.6% higher review points.

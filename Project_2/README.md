@@ -5,7 +5,7 @@ The purpose of the project is to build a model for an API that classifies disast
 The web app also displays visualizations of the data.
 
 ## Web application screenshots
-file1
+![file1](https://github.com/langyunlongxmen/DS_project/blob/main/Project_2/pic%20(1).png)
 
 file2
 
@@ -36,13 +36,21 @@ ML Pipeline Preparation.ipynb: The code and analysis contained in this Jupyter n
 disaster_messages.csv, disaster_categories.csv contain sample messages (real messages that were sent during disaster events) and categories datasets in csv format.
 templates folder: This folder contains all of the files necessary to run and render the web app.
 custom_transformer.py contains custom functions that were used in ML Pipeline Preparation.ipynb so to find best way of model tuning.
-## Instructions
-In a terminal navigate to the top-level project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
 
-python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
-python train_classifier.py DisasterResponse.db classifier.pkl
-python run.py
-Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
+## Instructions
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Go to `app` directory: `cd app`
+
+3. Run your web app: `python run.py`
+
+4. Click the `PREVIEW` button to open the homepage
+Run the web application Go to http://0.0.0.0:3000/ (if facing problems try http://localhost:3000 in a browser)
 
 In the web app you may input any text message (English) and it will categorize it among 35 classes.
 
